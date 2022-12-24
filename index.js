@@ -27,7 +27,9 @@ const orderRouter = require("./routes/orderRoutes");
 const stripeRouter = require("./routes/stripeRoutes");
 
 conectarDB();
-
+console.log("====================================");
+console.log("test");
+console.log("====================================");
 app.use(express.json());
 
 app.use(cookieParser());
